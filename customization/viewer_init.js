@@ -115,6 +115,7 @@ function initCore(){
     slideQuery.name = $D.params.slide
     slideQuery.location = $D.params.location
     $CAMIC = new CaMic("main_viewer", slideQuery, opt);
+    $CAMIC.viewer.viewport.maxZoomPixelRatio = 1;
   }catch(error){
     Loading.close();
     $UI.message.addError('Core Initialization Failed');
