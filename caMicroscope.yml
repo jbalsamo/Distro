@@ -40,7 +40,7 @@ services:
       - /sharmalab/SEER-VTR/VTR-Pending/:/data/SEER-VTR/VTR-Pending/
       - /sharmalab/vtrdata/img/:/data/images/
   viewer:
-    build: "https://github.com/camicroscope/caMicroscope.git#v3.3.3"
+    build: "https://github.com/camicroscope/caMicroscope.git#v3.3.4"
     container_name: ca-front
     volumes:
       - ./config/login.html:/var/www/html/login.html
