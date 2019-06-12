@@ -359,12 +359,12 @@ function initUIcomponents(){
 
   // bug report
   subToolsOpt.push({
-    name:'bugs',
-    icon: 'bug_report',
-    title: 'Bug Report',
-    value: 'bugs',
+    name:'Help',
+    icon: 'help',
+    title: 'Help',
+    value: 'Help',
     type: 'btn',
-    callback: ()=>{window.open('https://goo.gl/forms/mgyhx4ADH0UuEQJ53','_blank').focus()}
+    callback: ()=>{window.open('https://wiki.nci.nih.gov/display/SEER/caMicroscope+User+Guide','_blank').focus()}
   });
 
 
